@@ -85,4 +85,15 @@ noclip()
 end
 })
 
+```lua
+MainTab:AddTextbox({
+Name = "Teleport Player",
+Default = "",
+TextDisappear = true,
+Callback = function(value)
+teleportPlayer(value)
+end
+})
+
+OrionLib:Init()
 ```
